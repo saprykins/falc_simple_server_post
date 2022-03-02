@@ -1,6 +1,8 @@
 import requests
 
+# url = 'http://138.195.138.220:5000/svo'
 url = 'http://localhost:5000/svo'
+
 myobj = {'text': 'La trompette est un instrument à vent.'}
 x = requests.post(url, data = myobj)
 
